@@ -1,0 +1,85 @@
+$bg-color-1: #E6E6E6;
+$bg-color-2: #C4C4C4;
+$bg-color-3: #005677;
+$color-1: #005677;
+$color-2: #000000;
+$color-3: #FFFFFF;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    header {
+        .batman {
+            display: block;
+            margin: auto;
+            background-color:$bg-color-1;
+        }
+    }
+}
+
+main {
+    h1 {
+        background-color: $bg-color-2;
+        text-align: center;
+        padding-top: auto;
+        margin-top: auto;
+        color: $color-1;
+        font-family: Times New Roman;
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 0.25em;
+        word-spacing: 0.25em;
+    }
+
+    section {
+        h2 {
+            background-color: $bg-color-2;
+            text-align: left;
+            padding-top: auto;
+            margin-top: auto;
+            color: $color-1;
+            font-family: Times New Roman;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        &.datosPersonales{
+            font-family: Times New Roman;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 13px;  
+            text-align: left;
+            color: $color-2;
+        }
+    }
+    section {
+        .años{
+            font-family: Times New Roman;
+            font-size: 15px;
+            line-height: 12.7px; 
+            color: $color-2;
+        }
+    }
+}
+
+footer{
+    div{
+        font-family: Times New Roman;
+        background-color:$bg-color-3;
+        text-align: center;
+        color:$color-3;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0.25em;
+        word-spacing: 0.25em;  
+
+        &.footerImg{
+            display: line;    
+            margin: auto;
+        }
+    }
+}
